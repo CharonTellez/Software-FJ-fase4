@@ -1,0 +1,58 @@
+2026-11-22 15:40:04,271 | INFO | === INICIO DE SIMULACIÓN SOFTWARE FJ ===
+2026-11-22 15:40:04,271 | INFO | Cliente registrado exitosamente: Cliente[CLI-01] Laura Gómez (laura.gomez@correo.com) - Activo
+2026-11-22 15:40:04,271 | INFO | Fin de intento de registro de cliente (ID: CLI-01).
+2026-11-22 15:40:04,275 | ERROR | Error al registrar cliente 'CLI-02': Correo electrónico inválido: 'correo_sin_arroba'.
+2026-11-22 15:40:04,275 | INFO | Fin de intento de registro de cliente (ID: CLI-02).
+2026-11-22 15:40:04,275 | INFO | Cliente registrado exitosamente: Cliente[CLI-03] Andrés Pérez (andres.perez@empresa.co) - Activo
+2026-11-22 15:40:04,275 | INFO | Fin de intento de registro de cliente (ID: CLI-03).
+2026-11-22 15:40:04,276 | INFO | Servicio registrado: [Sala] Sala Ejecutiva Norte | Capacidad máx.: 10 personas | Tarifa/hora: $50.00
+2026-11-22 15:40:04,276 | INFO | Fin de intento de registro de servicio.
+2026-11-22 15:40:04,276 | INFO | Servicio registrado: [Equipo] Laptops Desarrollador | Unidades disponibles: 4 | Tarifa/unidad/período: $30.00
+2026-11-22 15:40:04,276 | INFO | Fin de intento de registro de servicio.
+2026-11-22 15:40:04,277 | INFO | Servicio registrado: [Asesoría] Arquitectura Cloud | Especialidad: Cloud | Tarifa base: $120.00
+2026-11-22 15:40:04,277 | INFO | Fin de intento de registro de servicio.
+2026-11-22 15:40:04,277 | ERROR | Error al instanciar servicio inválido: La tarifa base debe ser un número mayor que cero.
+2026-11-22 15:40:04,277 | INFO | Reserva procesada: Reserva[RES-01] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Sala Ejecutiva Norte | Duración: 3 | Total: $160.65
+2026-11-22 15:40:04,277 | INFO | Fin de procesamiento de reserva (ID: RES-01).
+2026-11-22 15:40:04,278 | INFO | Reserva procesada: Reserva[RES-02] | Estado: CONFIRMADA | Cliente: Andrés Pérez | Servicio: Laptops Desarrollador | Duración: 2 | Total: $120.00
+2026-11-22 15:40:04,278 | INFO | Fin de procesamiento de reserva (ID: RES-02).
+2026-11-22 15:40:04,278 | ERROR | Error en reserva 'RES-03': Stock insuficiente para 'Laptops Desarrollador': solicitados 5, disponibles 2.
+2026-11-22 15:40:04,278 | INFO | Fin de procesamiento de reserva (ID: RES-03).
+2026-11-22 15:40:04,278 | ERROR | Error en reserva 'RES-04': No existe ningún cliente con ID 'CLI-99'.
+2026-11-22 15:40:04,278 | INFO | Fin de procesamiento de reserva (ID: RES-04).
+2026-11-22 15:40:04,278 | INFO | Reserva procesada: Reserva[RES-05] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Arquitectura Cloud | Duración: 2 | Total: $309.40
+2026-11-22 15:40:04,278 | INFO | Fin de procesamiento de reserva (ID: RES-05).
+2026-11-22 15:40:04,278 | INFO | Reserva RES-02 cancelada. Motivo: Cambio de cronograma del cliente
+2026-11-22 15:40:04,278 | INFO | Fin de intento de cancelación de reserva (ID: RES-02).
+2026-11-22 15:40:04,278 | WARNING | No se pudo cancelar la reserva 'RES-02': La reserva RES-02 ya está CANCELADA.
+2026-11-22 15:40:04,278 | INFO | Fin de intento de cancelación de reserva (ID: RES-02).
+2026-11-22 15:40:04,279 | INFO | === FIN DE SIMULACIÓN SOFTWARE FJ ===
+2026-11-22 16:39:30,240 | INFO | === INICIO DE SIMULACIÓN SOFTWARE FJ ===
+2026-11-22 16:39:30,242 | INFO | Cliente registrado exitosamente: Cliente[CLI-01] Laura Gómez (laura.gomez@correo.com) - Activo
+2026-11-22 16:39:30,242 | INFO | Fin de intento de registro de cliente (ID: CLI-01).
+2026-11-22 16:39:30,242 | ERROR | Error al registrar cliente 'CLI-02': Correo electrónico inválido: 'correo_sin_arroba'.
+2026-11-22 16:39:30,242 | INFO | Fin de intento de registro de cliente (ID: CLI-02).
+2026-11-22 16:39:30,242 | INFO | Cliente registrado exitosamente: Cliente[CLI-03] Andrés Pérez (andres.perez@empresa.co) - Activo
+2026-11-22 16:39:30,242 | INFO | Fin de intento de registro de cliente (ID: CLI-03).
+2026-11-22 16:39:30,242 | INFO | Servicio registrado: [Sala] Sala Ejecutiva Norte | Capacidad máx.: 10 personas | Tarifa/hora: $50.00
+2026-11-22 16:39:30,242 | INFO | Fin de intento de registro de servicio.
+2026-11-22 16:39:30,242 | INFO | Servicio registrado: [Equipo] Laptops Desarrollador | Unidades disponibles: 4 | Tarifa/unidad/período: $30.00
+2026-11-22 16:39:30,243 | INFO | Fin de intento de registro de servicio.
+2026-11-22 16:39:30,243 | INFO | Servicio registrado: [Asesoría] Arquitectura Cloud | Especialidad: Cloud | Tarifa base: $120.00
+2026-11-22 16:39:30,243 | INFO | Fin de intento de registro de servicio.
+2026-11-22 16:39:30,243 | ERROR | Error al instanciar servicio inválido: La tarifa base debe ser un número mayor que cero.
+2026-11-22 16:39:30,243 | INFO | Reserva procesada: Reserva[RES-01] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Sala Ejecutiva Norte | Duración: 3 | Total: $160.65
+2026-11-22 16:39:30,243 | INFO | Fin de procesamiento de reserva (ID: RES-01).
+2026-11-22 16:39:30,243 | INFO | Reserva procesada: Reserva[RES-02] | Estado: CONFIRMADA | Cliente: Andrés Pérez | Servicio: Laptops Desarrollador | Duración: 2 | Total: $120.00
+2026-11-22 16:39:30,243 | INFO | Fin de procesamiento de reserva (ID: RES-02).
+2026-11-22 16:39:30,243 | ERROR | Error en reserva 'RES-03': Stock insuficiente para 'Laptops Desarrollador': solicitados 5, disponibles 2.
+2026-11-22 16:39:30,244 | INFO | Fin de procesamiento de reserva (ID: RES-03).
+2026-11-22 16:39:30,244 | ERROR | Error en reserva 'RES-04': No existe ningún cliente con ID 'CLI-99'.
+2026-11-22 16:39:30,244 | INFO | Fin de procesamiento de reserva (ID: RES-04).
+2026-11-22 16:39:30,244 | INFO | Reserva procesada: Reserva[RES-05] | Estado: CONFIRMADA | Cliente: Laura Gómez | Servicio: Arquitectura Cloud | Duración: 2 | Total: $309.40
+2026-11-22 16:39:30,244 | INFO | Fin de procesamiento de reserva (ID: RES-05).
+2026-11-22 16:39:30,244 | INFO | Reserva RES-02 cancelada. Motivo: Cambio de cronograma del cliente
+2026-11-22 16:39:30,244 | INFO | Fin de intento de cancelación de reserva (ID: RES-02).
+2026-11-22 16:39:30,244 | WARNING | No se pudo cancelar la reserva 'RES-02': La reserva RES-02 ya está CANCELADA.
+2026-11-22 16:39:30,244 | INFO | Fin de intento de cancelación de reserva (ID: RES-02).
+2026-11-22 16:39:30,244 | INFO | === FIN DE SIMULACIÓN SOFTWARE FJ ===
